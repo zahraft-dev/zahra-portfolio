@@ -137,5 +137,13 @@ transform: translateY(-3px);
     My goal is to become a skilled software developer and continue
     growing through real-world projects.
 </p>
+#about {
+        background:#111c31;
+} 
+#about p {
+    max-width:750px;
+    margin-bottom:15px;
+    color:#cdb5e1;
+}
 
 
