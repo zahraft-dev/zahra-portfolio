@@ -39,7 +39,7 @@ nav {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    padding: 60px 8%;
+    padding: 60px 12%;
 }
 .welcome {
     color: #38bdf8;
