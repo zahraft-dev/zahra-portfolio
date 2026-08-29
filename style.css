@@ -109,3 +109,18 @@ footer {
         font-size: 22px;
     }
 }
+#contact {
+text-align: center;
+}
+#contact p {
+max-width: 600px;
+margin: 0 auto;
+color: #cbd5e1;
+}
+#contact .button {
+transition: 0.3s ease;
+}
+#contact .button:hover {
+background: #0ea5e9;
+transform: translateY(-3px);
+}
