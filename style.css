@@ -1,139 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 html {
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 body {
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #f8fafc;
-    line-height: 1.6;
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: #f8fafc;
+line-height: 1.6;
 }
+/* Header */
 header {
-    padding: 20px 8%;
-    background: #0f172a;
+padding: 20px 8%;
+background: #0f172a;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .logo {
-    font-size: 28px;
+font-size: 28px;
 }
 .nav-links {
-    display: flex;
-    gap: 25px;
+display: flex;
+gap: 25px;
 }
 .nav-links a {
-    color: white;
-    text-decoration: none;
+color: white;
+text-decoration: none;
 }
 .nav-links a:hover {
-    color: #38bdf8;
+color: #38bdf8;
 }
+/* Hero */
 .hero {
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    padding: 60px 12%;
-}
-.hero p {
-    max-width:600px;
-    color:#cbd5e1;
-    }
-.hero .button{
-    transition:0.3s ease;
-}
-.hero .button{
-    transform:translateY(-3px)
-    
+min-height: 80vh;
+display: flex;
+align-items: center;
+padding: 60px 12%;
 }
 .welcome {
-    color: #38bdf8;
-    font-weight: bold;
-    margin-bottom: 15px;
+color: #38bdf8;
+font-weight: bold;
+margin-bottom: 15px;
 }
 .hero h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
+font-size: 60px;
+margin-bottom: 10px;
 }
 .hero h1 span {
-    color: #38bdf8;
+color: #38bdf8;
 }
 .hero h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+font-size: 28px;
+margin-bottom: 20px;
 }
 .hero p {
-    max-width: 600px;
+max-width: 600px;
+color: #cbd5e1;
 }
+/* Buttons */
 .button {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 25px;
-    background: #38bdf8;
-    color: #0f172a;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
+display: inline-block;
+margin-top: 30px;
+padding: 12px 25px;
+background: #38bdf8;
+color: #0f172a;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3s ease;
 }
+.button:hover {
+background: #0ea5e9;
+transform: translateY(-3px);
+}
+/* Sections */
 section {
-    padding: 80px 8%;
+padding: 80px 8%;
 }
 section h2 {
-    font-size: 35px;
-    margin-bottom: 25px;
+font-size: 35px;
+margin-bottom: 25px;
 }
+/* About */
+#about {
+background: #111c31;
+}
+#about p {
+max-width: 750px;
+margin-bottom: 15px;
+color: #cbd5e1;
+}
+/* Skills */
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
 }
 .skills div {
-    padding: 15px 25px;
-    background: #1e293b;
-    border-radius: 8px;
+padding: 15px 25px;
+background: #1e293b;
+border-radius: 8px;
+transition: 0.3s ease;
 }
+.skills div:hover {
+transform: translateY(-5px);
+background: #334155;
+}
+/* Projects */
 .project {
-    max-width: 500px;
-    padding: 25px;
-    background: #1e293b;
-    border-radius: 12px;
+max-width: 500px;
+padding: 25px;
+background: #1e293b;
+border-radius: 12px;
+transition: 0.3s ease;
 }
-.project{
-    transition:0.3s ease;
+.project:hover {
+transform: translateY(-5px);
 }
-.project{
-    transform:translateY(-5px)
+.project h3 {
+font-size: 24px;
+margin-bottom: 10px;
 }
-.project h3{
-    font-size:24px;
-    margin-button:10px
+.project p {
+color: #cbd5e1;
+margin-bottom: 15px;
 }
-.project p{
-    color:#cbd5e1;
-    margin-button:15px;
-}
-footer {
-    text-align: center;
-    padding: 30px;
-    background: #020617;
-}
-@media (max-width: 600px) {
-    .nav-links {
-        display: none;
-    }
-    .hero h1 {
-        font-size: 42px;
-    }
-    .hero h2 {
-        font-size: 22px;
-    }
-}
+/* Contact */
 #contact {
 text-align: center;
 }
@@ -142,33 +140,31 @@ max-width: 600px;
 margin: 0 auto;
 color: #cbd5e1;
 }
-#contact .button {
-transition: 0.3s ease;
+/* Footer */
+footer {
+text-align: center;
+padding: 30px;
+background: #020617;
 }
-#contact .button:hover {
-background: #0ea5e9;
-transform: translateY(-3px);
+/* Mobile */
+@media (max-width: 600px) {
+.nav-links {
+    display: none;
 }
-<p>
-    Hi! I'm Zahra, a Computer Engineering student interested in
-    programming and web development.
-</p>
-<p>
-    I'm currently improving my skills in HTML, CSS, JavaScript,
-    Git and GitHub. I enjoy learning new technologies and building
-    practical projects.
-</p>
-<p>
-    My goal is to become a skilled software developer and continue
-    growing through real-world projects.
-</p>
-#about {
-        background:#111c31;
-} 
-#about p {
-    max-width:750px;
-    margin-bottom:15px;
-    color:#cdb5e1;
+.hero {
+    padding: 50px 6%;
+}
+section {
+    padding: 60px 6%;
+}
+.hero h1 {
+    font-size: 42px;
+}
+.hero h2 {
+    font-size: 22px;
+}
+.project {
+    width: 100%;
 }
 
-
+}
