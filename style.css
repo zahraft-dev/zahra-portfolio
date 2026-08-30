@@ -41,6 +41,17 @@ nav {
     align-items: center;
     padding: 60px 12%;
 }
+.hero p {
+    max-width:600px;
+    color:#cbd5e1;
+    }
+.hero .button{
+    transition:0.3s ease;
+}
+.hero .button{
+    transform:translateY(-3px)
+    
+}
 .welcome {
     color: #38bdf8;
     font-weight: bold;
@@ -92,6 +103,20 @@ section h2 {
     padding: 25px;
     background: #1e293b;
     border-radius: 12px;
+}
+.project{
+    transition:0.3s ease;
+}
+.project{
+    transform:translateY(-5px)
+}
+.project h3{
+    font-size:24px;
+    margin-button:10px
+}
+.project p{
+    color:#cbd5e1;
+    margin-button:15px;
 }
 footer {
     text-align: center;
